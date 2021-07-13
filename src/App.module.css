@@ -1,0 +1,35 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.TopBar{
+        width: 100%;
+        background-color: #bbbdc2;
+        padding: 24px 48px 12px;
+        text-align: right;
+        
+        position: fixed;
+        box-sizing: border-box;
+        top: 0; 
+        left: 0;
+
+    }
+.MainBody{
+    padding: 58px 106px 34px;
+    width: 100%;
+    /* display: flex; */
+}
+.Left{
+     align-items: left; 
+    width:33%;
+    margin-left: 0%;
+    /* margin: 10px; */
+}
+.Centre{
+    align-items: center; 
+}
+.Right{
+    align-items: center;
+    width: 50%;
+}
+
